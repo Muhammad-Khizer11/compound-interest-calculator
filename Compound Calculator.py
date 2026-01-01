@@ -26,7 +26,7 @@ while True:
     total = principle * pow((1 + rate / 100), time)
 
     print(f"Balance after {time} year is £{total:.2f}")
-    again = input("Do you want to continue (Y/N): ").upper()
+    again = input("Do you want to start again (Y/N): ").upper()
     if again == "N":
         print("Goodbye")
         break
